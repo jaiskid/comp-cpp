@@ -25,7 +25,7 @@ int partion(long long int *a,int s,int e){
 }
 void quicksort(long long int *a,int s,int e){
 	if(s>=e){
-	return;
+	return
 	}
 	int p=partion(a,s,e);
 	quicksort(a,s,p-1);
