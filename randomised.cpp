@@ -21,7 +21,7 @@ int partion(long long int *a,int s,int e){
 	}
 	}
 	swap(a[i+1],a[e]);
-	return i+1;
+	return i+1
 }
 void quicksort(long long int *a,int s,int e){
 	if(s>=e){
