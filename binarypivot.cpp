@@ -9,7 +9,7 @@ int main(){
 	int s=0;
 	int e=n-1;
 	while(s<=e){
-	int mid=(s+e)/2;
+		int mid=(s+e)/2;9
 	if(mid<e && arr[mid]>arr[mid+1]){
 	cout<<mid<<" ";
 	break;
